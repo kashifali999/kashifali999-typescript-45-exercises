@@ -11,7 +11,7 @@ console.log(`Dear, ${friendArray1[3]} I am sending you warm greetings and good v
 let friendArray2:string [] = ["Rashid", "Shoaib", "Ahmad", "Abdullah"]
 let message1:string = "Dear,"
 let message2:string = "I am sending you warm greetings and good vibes for a fantastic day ahead!"
-console.log(`${message1} ${friendArray2[0]} ${message2}`)
-console.log(`${message1} ${friendArray2[1]} ${message2}`)
-console.log(`${message1} ${friendArray2[2]} ${message2}`)
-console.log(`${message1} ${friendArray2[3]} ${message2}`)
+console.log(message1 +" "+ `${friendArray2[0]}` +" "+ message2)
+console.log(message1 +" "+ `${friendArray2[1]}` +" "+ message2)
+console.log(message1 +" "+ `${friendArray2[2]}` +" "+ message2)
+console.log(message1 +" "+ `${friendArray2[3]}` +" "+ message2)

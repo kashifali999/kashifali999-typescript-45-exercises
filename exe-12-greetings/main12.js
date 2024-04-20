@@ -10,7 +10,7 @@ console.log("Dear, ".concat(friendArray1[3], " I am sending you warm greetings a
 var friendArray2 = ["Rashid", "Shoaib", "Ahmad", "Abdullah"];
 var message1 = "Dear,";
 var message2 = "I am sending you warm greetings and good vibes for a fantastic day ahead!";
-console.log("".concat(message1, " ").concat(friendArray2[0], " ").concat(message2));
-console.log("".concat(message1, " ").concat(friendArray2[1], " ").concat(message2));
-console.log("".concat(message1, " ").concat(friendArray2[2], " ").concat(message2));
-console.log("".concat(message1, " ").concat(friendArray2[3], " ").concat(message2));
+console.log(message1 + " " + "".concat(friendArray2[0]) + " " + message2);
+console.log(message1 + " " + "".concat(friendArray2[1]) + " " + message2);
+console.log(message1 + " " + "".concat(friendArray2[2]) + " " + message2);
+console.log(message1 + " " + "".concat(friendArray2[3]) + " " + message2);
