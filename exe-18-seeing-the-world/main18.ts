@@ -26,6 +26,11 @@ console.log(favroitePlaces);
 console.log(favroitePlaces.reverse());
 console.log(favroitePlaces);
 
+let sortedFavroitePlaces = ["Makkah", "Madeena", "Istambool", "Dubai", "Tokyo"]
+sortedFavroitePlaces.sort()
+console.log(sortedFavroitePlaces);
+sortedFavroitePlaces.reverse()
+console.log(sortedFavroitePlaces);
 
 
 
