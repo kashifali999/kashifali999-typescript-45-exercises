@@ -3,15 +3,24 @@
 
 • Write one version of this program that passes the if test and another that fails. (The version that fails will have no output.)*/
 //===================================================================================================================================
-var alien_color1 = "green"; //'green', 'yellow', or 'red'
-if (alien_color1 === "green") {
-    console.log("The player just earned 5 points");
+let alien_color1:string = "green"
+if(alien_color1 === "green"){
+    console.log("The player just earned 5 points")
 }
-else
-    (null);
-var alien_color2 = "green"; //'green', 'yellow', or 'red'
-if (alien_color2 === "red") {
-    console.log("The player just earned 5 points");
+else(null)
+
+
+let alien_color2:string = "green"
+if(alien_color2 === "red"){
+    console.log("The player just earned 5 points")
 }
-else
-    (null);
+else(null)
+
+
+
+
+
+
+
+
+
