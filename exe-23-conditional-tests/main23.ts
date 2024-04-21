@@ -12,8 +12,8 @@
 //===========================================================================================================================================
 let car = 'subaru';
 console.log("Is car == 'subaru'? I predict True.")
-console.log(car == 'subaru')
-console.log(car == 'toyota')
+console.log(car === 'subaru')
+console.log(car === 'toyota')
 
 let number:any = 10
 console.log("Is number == 10 ? I predict True.")
@@ -22,15 +22,15 @@ console.log(number === 10);
 
 let bike = 'honda';
 console.log("Is bike == 'honda'? I predict True.")
-console.log(car == 'honda')
-console.log(car == 'super star')
+console.log(bike === 'honda')
+console.log(bike === 'super star')
 
 let city = 'Karachi';
 console.log("Is city == 'Karachi'? I predict True.")
-console.log(car == 'Lahore')
-console.log(car == 'Karachi')
+console.log(city === 'Lahore')
+console.log(city === 'Karachi')
 
 let fruit = 'Mango';
 console.log("Is fruit == 'Mango'? I predict True.")
-console.log(car == 'Mango')
-console.log(car == 'Apple')
+console.log(fruit === 'Mango')
+console.log(fruit === 'Apple')
