@@ -9,9 +9,9 @@ function make_album(artist, title, tracks) {
     }
     return album;
 }
-var album1 = make_album("The Beatles", "Abbey Road");
-var album2 = make_album("Pink Floyd", "Dark Side of the Moon", 9);
-var album3 = make_album("Radiohead", "OK Computer");
+var album1 = make_album("Nusrat", "Qawali collection", 1);
+var album2 = make_album("Kumar Sanu", "Ghamon ky saaye", 2);
+var album3 = make_album("Atta Ullah", "Folk songs collection", 3);
 console.log(album1);
 console.log(album2);
 console.log(album3);
