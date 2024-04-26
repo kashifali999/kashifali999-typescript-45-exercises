@@ -2,8 +2,8 @@
 //===========================================================================================================================================
 let magicians : string [] = ["Naseer", "Kashif", "Jamal"]
 
-function show_magicians(magicianList : string[]):void
+function make_great(magicianList : string[]):void
 
 {magicianList.forEach((magicians) => {console.log(`${magicians} the great`)})}
 
-show_magicians(magicians);
+make_great(magicians)
