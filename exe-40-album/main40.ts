@@ -4,14 +4,14 @@ function make_album(artist: string, title: string, tracks?: number): object {
     const album: object = {}
     album["artist"] = artist
     album["title"] = title
-
     if (tracks !== undefined){album["tracks"] = tracks}
-    return album}
+    return album
+}
   
-    const album1 = make_album("The Beatles", "Abbey Road")
-    const album2 = make_album("Pink Floyd", "Dark Side of the Moon", 9)
-    const album3 = make_album("Radiohead", "OK Computer")
+const album1 = make_album("The Beatles", "Abbey Road")
+const album2 = make_album("Pink Floyd", "Dark Side of the Moon", 9)
+const album3 = make_album("Radiohead", "OK Computer")
     
-    console.log(album1)
-    console.log(album2)
-    console.log(album3)
+console.log(album1)
+console.log(album2)
+console.log(album3)
