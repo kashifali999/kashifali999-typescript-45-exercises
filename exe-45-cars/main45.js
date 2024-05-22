@@ -16,3 +16,4 @@ function createCar(manufacturer, model, additionalInfo) {
 }
 var myCar = createCar("Toyota", "Camry", { color: "Blue", year: 2022 });
 console.log(myCar);
+// The end
