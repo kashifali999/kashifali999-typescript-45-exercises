@@ -10,4 +10,4 @@ function summarizeSandwich(...items: string[]): void{
 summarizeSandwich("bread", "turkey", "cheese");
 summarizeSandwich("bread", "ham", "lettuce", "tomato");
 summarizeSandwich();
-  
+  //End
