@@ -24,3 +24,4 @@ show_magicians(magicians)
 
 console.log("\nGreat Magicians:")
 show_magicians(great_magicians)
+//End
