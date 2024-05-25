@@ -7,3 +7,4 @@ function make_great(magicianList : string[]):void
 {magicianList.forEach((magicians) => {console.log(`${magicians} the great`)})}
 
 make_great(magicians)
+//End
